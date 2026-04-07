@@ -1,7 +1,12 @@
 aid: st-jude-medical
-url: https://raw.githubusercontent.com/api-evangelist/st-jude-medical/refs/heads/main/apis.yml
+url: 
+  https://raw.githubusercontent.com/api-evangelist/st-jude-medical/refs/heads/main/apis.yml
 modified: '2026-03-24'
 apis: []
 common:
   - type: Website
     url: https://www.st-jude-medical.com
+description: >-
+  St. Jude Medical was a global medical device company that developed cardiovascular
+  medical devices for cardiac rhythm management, atrial fibrillation, and cardiovascular
+  and neuromodulation therapies before being acquired by Abbott.
