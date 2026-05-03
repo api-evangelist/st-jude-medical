@@ -1,0 +1,56 @@
+{
+  "title": "Cardiac Device Structure",
+  "description": "Hierarchical structure of St. Jude Medical / Abbott cardiac device data from Merlin.net",
+  "type": "object",
+  "properties": {
+    "deviceId": {"type": "string", "description": "Unique device identifier"},
+    "deviceType": {"type": "string", "description": "Device type (ICD, CRT-D, Pacemaker, etc.)"},
+    "model": {"type": "string", "description": "Device model name"},
+    "serialNumber": {"type": "string", "description": "Device serial number"},
+    "implantDate": {"type": "string", "description": "Implant date (YYYY-MM-DD)"},
+    "patientId": {"type": "string", "description": "Patient identifier"},
+    "clinicId": {"type": "string", "description": "Monitoring clinic identifier"},
+    "remoteMonitoring": {
+      "type": "object",
+      "description": "Remote monitoring configuration",
+      "properties": {
+        "enabled": {"type": "boolean"},
+        "transmitterModel": {"type": "string"},
+        "lastTransmissionDate": {"type": "string"},
+        "connectionType": {"type": "string"}
+      }
+    },
+    "batteryStatus": {
+      "type": "object",
+      "properties": {
+        "voltage": {"type": "number"},
+        "estimatedReplacementDate": {"type": "string"},
+        "status": {"type": "string"}
+      }
+    },
+    "leadMeasurements": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "leadLocation": {"type": "string"},
+          "impedance": {"type": "number"},
+          "threshold": {"type": "number"},
+          "sensing": {"type": "number"}
+        }
+      }
+    },
+    "alerts": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "alertId": {"type": "string"},
+          "alertType": {"type": "string"},
+          "severity": {"type": "string"},
+          "detectedDate": {"type": "string"}
+        }
+      }
+    }
+  }
+}

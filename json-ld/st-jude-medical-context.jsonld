@@ -1,0 +1,67 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "schema": "https://schema.org/",
+    "fhir": "http://hl7.org/fhir/",
+    "med": "https://github.com/api-evangelist/st-jude-medical#",
+
+    "MedicalDevice": "schema:MedicalDevice",
+    "ImplantableDevice": "med:ImplantableDevice",
+    "CardiacDevice": "med:CardiacDevice",
+    "ICD": "med:ImplantableCardioverterDefibrillator",
+    "CRTDevice": "med:CardiacResynchronizationTherapyDevice",
+    "Pacemaker": "med:Pacemaker",
+
+    "Patient": "fhir:Patient",
+    "Clinic": "schema:MedicalClinic",
+    "Observation": "fhir:Observation",
+
+    "deviceId": "schema:identifier",
+    "serialNumber": "schema:serialNumber",
+    "model": "schema:model",
+    "manufacturer": {
+      "@id": "schema:manufacturer",
+      "@type": "@id"
+    },
+    "implantDate": {
+      "@id": "med:implantDate",
+      "@type": "schema:Date"
+    },
+    "patientId": {
+      "@id": "fhir:subject",
+      "@type": "@id"
+    },
+
+    "remoteMonitoring": "med:remoteMonitoring",
+    "transmitterModel": "med:transmitterModel",
+    "lastTransmissionDate": {
+      "@id": "med:lastTransmission",
+      "@type": "schema:DateTime"
+    },
+    "connectionType": "med:connectionType",
+
+    "batteryStatus": "med:batteryStatus",
+    "batteryVoltage": "med:batteryVoltage",
+    "estimatedReplacementDate": {
+      "@id": "med:estimatedReplacementDate",
+      "@type": "schema:Date"
+    },
+
+    "leadMeasurements": "med:leadMeasurements",
+    "leadLocation": "med:leadLocation",
+    "impedance": "med:impedance",
+    "threshold": "med:pacingThreshold",
+    "sensing": "med:sensingAmplitude",
+
+    "CardiacAlert": "med:CardiacAlert",
+    "alertType": "med:alertType",
+    "severity": "med:alertSeverity",
+    "detectedDate": {
+      "@id": "med:detectedDate",
+      "@type": "schema:DateTime"
+    },
+
+    "MerlinNet": "med:MerlinPatientCareNetwork",
+    "MerlinAtHome": "med:MerlinAtHomeTransmitter"
+  }
+}

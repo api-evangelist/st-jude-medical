@@ -1,0 +1,147 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/api-evangelist/st-jude-medical/json-schema/st-jude-medical-cardiac-device-schema.json",
+  "title": "Cardiac Device",
+  "description": "St. Jude Medical / Abbott implanted cardiac device and its remote monitoring status on the Merlin.net Patient Care Network",
+  "type": "object",
+  "required": ["deviceId", "deviceType", "patientId"],
+  "properties": {
+    "deviceId": {
+      "type": "string",
+      "description": "Unique identifier for the implanted cardiac device"
+    },
+    "deviceType": {
+      "type": "string",
+      "enum": ["ICD", "CRT-D", "CRT-P", "Pacemaker", "ILR"],
+      "description": "Type of implanted cardiac device"
+    },
+    "model": {
+      "type": "string",
+      "description": "Device model name (e.g., Ellipse VR, Quadra Assura MP)"
+    },
+    "manufacturer": {
+      "type": "string",
+      "enum": ["St. Jude Medical", "Abbott"],
+      "description": "Device manufacturer"
+    },
+    "serialNumber": {
+      "type": "string",
+      "description": "Device serial number"
+    },
+    "implantDate": {
+      "type": "string",
+      "format": "date",
+      "description": "Date the device was implanted"
+    },
+    "patientId": {
+      "type": "string",
+      "description": "Unique identifier for the patient"
+    },
+    "clinicId": {
+      "type": "string",
+      "description": "Identifier for the monitoring clinic"
+    },
+    "remoteMonitoring": {
+      "type": "object",
+      "description": "Remote monitoring configuration and status",
+      "properties": {
+        "enabled": {
+          "type": "boolean",
+          "description": "Whether remote monitoring is enabled"
+        },
+        "transmitterModel": {
+          "type": "string",
+          "description": "Merlin@home transmitter model (e.g., EX1150)"
+        },
+        "lastTransmissionDate": {
+          "type": "string",
+          "format": "date-time",
+          "description": "Date and time of the last successful transmission"
+        },
+        "scheduledTransmissionFrequency": {
+          "type": "string",
+          "enum": ["daily", "weekly", "monthly", "quarterly"],
+          "description": "Frequency of scheduled transmissions"
+        },
+        "connectionType": {
+          "type": "string",
+          "enum": ["landline", "cellular", "wifi"],
+          "description": "Type of connection used by the transmitter"
+        }
+      }
+    },
+    "batteryStatus": {
+      "type": "object",
+      "description": "Device battery information",
+      "properties": {
+        "voltage": {
+          "type": "number",
+          "description": "Current battery voltage in volts"
+        },
+        "estimatedReplacementDate": {
+          "type": "string",
+          "format": "date",
+          "description": "Estimated date when battery replacement will be needed"
+        },
+        "status": {
+          "type": "string",
+          "enum": ["Normal", "Elective Replacement Indicator", "End of Life"],
+          "description": "Battery replacement status indicator"
+        }
+      }
+    },
+    "leadMeasurements": {
+      "type": "array",
+      "description": "Measurements from device leads",
+      "items": {
+        "type": "object",
+        "properties": {
+          "leadLocation": {
+            "type": "string",
+            "enum": ["RA", "RV", "LV"],
+            "description": "Lead location (Right Atrium, Right Ventricle, Left Ventricle)"
+          },
+          "impedance": {
+            "type": "number",
+            "description": "Lead impedance in ohms"
+          },
+          "threshold": {
+            "type": "number",
+            "description": "Pacing threshold in volts"
+          },
+          "sensing": {
+            "type": "number",
+            "description": "Sensing amplitude in millivolts"
+          }
+        }
+      }
+    },
+    "alerts": {
+      "type": "array",
+      "description": "Active device alerts",
+      "items": {
+        "type": "object",
+        "properties": {
+          "alertId": {
+            "type": "string"
+          },
+          "alertType": {
+            "type": "string",
+            "description": "Type of alert"
+          },
+          "severity": {
+            "type": "string",
+            "enum": ["Low", "Medium", "High", "Critical"]
+          },
+          "detectedDate": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "description": {
+            "type": "string"
+          }
+        }
+      }
+    }
+  }
+}

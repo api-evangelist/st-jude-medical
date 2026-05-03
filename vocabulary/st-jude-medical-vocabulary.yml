@@ -1,0 +1,110 @@
+name: St. Jude Medical Vocabulary
+description: >-
+  Vocabulary for St. Jude Medical (now Abbott) cardiovascular medical devices,
+  cardiac rhythm management, and remote patient monitoring via the Merlin.net
+  Patient Care Network.
+created: '2026-05-02'
+modified: '2026-05-02'
+terms:
+  - term: Implantable Cardioverter Defibrillator
+    abbreviation: ICD
+    definition: >-
+      A battery-powered device implanted in the chest to monitor heart rhythm
+      and deliver electric shocks to restore normal rhythm when life-threatening
+      arrhythmias are detected.
+
+  - term: Cardiac Resynchronization Therapy Defibrillator
+    abbreviation: CRT-D
+    definition: >-
+      A device that combines cardiac resynchronization therapy with defibrillation
+      capabilities. It coordinates the contractions of the left and right
+      ventricles to improve heart function while also treating arrhythmias.
+
+  - term: Cardiac Resynchronization Therapy Pacemaker
+    abbreviation: CRT-P
+    definition: >-
+      A biventricular pacemaker that coordinates contractions of both ventricles
+      to improve heart function in patients with heart failure without the
+      defibrillation function of a CRT-D.
+
+  - term: Pacemaker
+    definition: >-
+      A small electronic device implanted in the chest to help regulate slow
+      or irregular heartbeats by delivering electrical impulses to the heart.
+
+  - term: Merlin.net
+    definition: >-
+      Abbott's web-based remote cardiac monitoring platform (formerly St. Jude
+      Medical's Merlin.net Patient Care Network) that receives and displays
+      transmitted device data from patients with implanted cardiac devices.
+
+  - term: Merlin@home
+    definition: >-
+      A wireless transmitter placed near the patient's bed that communicates
+      with implanted cardiac devices via short-range radio frequency signals and
+      automatically transmits device data to the Merlin.net network.
+
+  - term: Cardiac Rhythm Management
+    abbreviation: CRM
+    definition: >-
+      The specialty within cardiology focused on diagnosing and treating
+      disorders of the heart's electrical system using devices such as
+      pacemakers, ICDs, and CRT devices.
+
+  - term: Electrophysiology
+    abbreviation: EP
+    definition: >-
+      The study of the electrical properties and conduction systems of the
+      heart. Electrophysiology catheters and mapping systems are used to
+      diagnose and treat arrhythmias.
+
+  - term: Lead
+    definition: >-
+      An insulated wire connecting an implanted cardiac device to the heart
+      muscle. Leads deliver pacing impulses and sense electrical activity.
+      Positioned in the right atrium (RA), right ventricle (RV), or left
+      ventricle (LV).
+
+  - term: Lead Impedance
+    definition: >-
+      The electrical resistance measured in the pacing circuit. Normal
+      impedance values indicate proper lead function; abnormal values may
+      indicate lead dislodgment or fracture.
+
+  - term: Pacing Threshold
+    definition: >-
+      The minimum electrical stimulation energy required to consistently
+      capture (pace) the heart. Measured in volts or milliamperes.
+
+  - term: Elective Replacement Indicator
+    abbreviation: ERI
+    definition: >-
+      A battery status indicator signaling that the device battery is
+      approaching depletion and device replacement should be scheduled.
+      Typically provides 3-6 months of remaining service life.
+
+  - term: Remote Monitoring
+    definition: >-
+      The automatic transmission of device data from a patient's implanted
+      cardiac device to the healthcare provider via the Merlin@home transmitter
+      and Merlin.net network without requiring in-clinic visits.
+
+  - term: Arrhythmia
+    definition: >-
+      An abnormal heart rhythm. Types include ventricular fibrillation (VF),
+      ventricular tachycardia (VT), atrial fibrillation (AF), and
+      bradycardia. ICDs treat life-threatening arrhythmias.
+
+  - term: Ventricular Fibrillation
+    abbreviation: VF
+    definition: >-
+      A life-threatening cardiac arrhythmia in which the heart's lower chambers
+      quiver rapidly and chaotically. ICDs deliver high-energy shocks to
+      terminate VF and restore normal rhythm.
+
+  - term: Atrial Fibrillation
+    abbreviation: AF
+    definition: >-
+      A common heart arrhythmia in which the heart's upper chambers beat
+      irregularly. St. Jude Medical produces catheters and ablation systems
+      for treating AF.
