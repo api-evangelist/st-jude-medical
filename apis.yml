@@ -52,7 +52,7 @@ common:
   - url: https://www.cardiovascular.abbott/us/en/hcp/products/cardiac-rhythm-management/connectivity-remote-care/merlin-patient-care-network.html
     type: Documentation
   - url: json-ld/st-jude-medical-context.jsonld
-    type: JSON-LD
+    type: JSONLD
   - url: json-schema/st-jude-medical-cardiac-device-schema.json
     type: JSONSchema
   - url: vocabulary/st-jude-medical-vocabulary.yml
