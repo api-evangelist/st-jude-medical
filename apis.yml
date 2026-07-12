@@ -44,6 +44,8 @@ apis:
       - url: https://www.merlin.net
         type: Portal
 common:
+  - type: DomainSecurity
+    url: security/st-jude-medical-domain-security.yml
   - url: https://www.cardiovascular.abbott/us/en/home.html
     type: Website
   - url: https://www.st-jude-medical.com
