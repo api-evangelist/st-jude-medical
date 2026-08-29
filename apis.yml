@@ -85,3 +85,6 @@ common:
     type: JSONSchema
   - url: vocabulary/st-jude-medical-vocabulary.yml
     type: Vocabulary
+x-parent: abbott-laboratories
+x-relationship: acquisition
+x-acquired: 2017
