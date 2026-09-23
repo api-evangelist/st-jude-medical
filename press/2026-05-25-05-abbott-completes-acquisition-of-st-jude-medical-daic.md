@@ -1,7 +1,9 @@
 ---
 title: Abbott Completes Acquisition of St. Jude Medical | DAIC
 url: https://www.dicardiology.com/content/abbott-completes-acquisition-st-jude-medical
-date: '2026-05-25'
+published: ''
+date_basis: harvested
+harvested: '2026-05-25'
 query: '"St. Jude Medical" press release artificial intelligence'
 position: 5
 source: serpapi-google

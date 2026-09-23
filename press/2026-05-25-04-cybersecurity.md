@@ -1,7 +1,9 @@
 ---
 title: Cybersecurity
 url: https://www.fda.gov/medical-devices/digital-health-center-excellence/cybersecurity
-date: '2026-05-25'
+published: ''
+date_basis: harvested
+harvested: '2026-05-25'
 query: '"St. Jude Medical" press release artificial intelligence'
 position: 4
 source: serpapi-google

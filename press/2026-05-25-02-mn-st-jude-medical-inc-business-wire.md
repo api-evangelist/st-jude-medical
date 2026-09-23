@@ -1,7 +1,9 @@
 ---
 title: MN-ST.-JUDE-MEDICAL,-INC | Business Wire
 url: https://via.ritzau.dk/pressemeddelelse/5856506/mn-st-jude-medical-inc?publisherId=90456
-date: '2026-05-25'
+published: ''
+date_basis: harvested
+harvested: '2026-05-25'
 query: '"St. Jude Medical" press release artificial intelligence'
 position: 2
 source: serpapi-google

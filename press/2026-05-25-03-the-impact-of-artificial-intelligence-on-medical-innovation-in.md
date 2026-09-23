@@ -1,7 +1,9 @@
 ---
 title: The Impact of Artificial Intelligence on Medical Innovation in ...
 url: https://www.arnoldporter.com/-/media/files/perspectives/publications/2017/08/the-impact-of-artificial-inteelligence-on-medical-innovation.pdf
-date: '2026-05-25'
+published: ''
+date_basis: harvested
+harvested: '2026-05-25'
 query: '"St. Jude Medical" press release artificial intelligence'
 position: 3
 source: serpapi-google
