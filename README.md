@@ -66,26 +66,130 @@
 
 St. Jude Medical was a global medical device company specializing in cardiovascular devices including implantable cardioverter defibrillators (ICDs), pacemakers, cardiac resynchronization therapy (CRT) devices, and electrophysiology products. The company was acquired by Abbott in January 2017 and now operates as Abbott's cardiac rhythm management division. Its flagship remote monitoring platform, Merlin.net Patient Care Network, enables clinicians to remotely monitor patients with implanted cardiac devices via the Merlin@home transmitter and the myMerlinPulse mobile application.
 
-## Tags
+**Areas:** Cardiac · Cardiovascular · Healthcare · Medical Devices · Patient Monitoring · Remote Care · Fortune 500
 
-Cardiac, Cardiovascular, Healthcare, Medical Devices, Patient Monitoring, Remote Care
+## St. Jude Medical on APIs.io
 
-## APIs
+Everything profiled for St. Jude Medical is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/st-jude-medical/](https://apis.io/providers/st-jude-medical/)** — or go straight to one of the APIs or properties below.
 
-### Merlin.net Patient Care Network API
+### APIs (1)
 
-The Merlin.net Patient Care Network is Abbott's (formerly St. Jude Medical's) remote cardiac monitoring platform. It allows clinicians to receive scheduled transmissions and daily alert notifications from patients with implanted cardiac rhythm management devices including ICDs, CRT devices, and pacemakers. The Merlin@home transmitter communicates with the implanted device via radio frequency and transmits data to the Merlin.net platform via landline, cellular, or wireless broadband.
+- [Merlin.net Patient Care Network API](https://apis.io/apis/st-jude-medical/merlin-net/) — The Merlin.net Patient Care Network is Abbott's (formerly St. Jude Medical's) remote cardiac monitoring platform. It allows clinicians to receive scheduled…
 
-**Portal:** [https://www.merlin.net](https://www.merlin.net)
+### Published properties
 
-**Documentation:** [https://www.cardiovascular.abbott/us/en/hcp/products/cardiac-rhythm-management/connectivity-remote-care/merlin-home-transmitter.html](https://www.cardiovascular.abbott/us/en/hcp/products/cardiac-rhythm-management/connectivity-remote-care/merlin-home-transmitter.html)
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-## Common Properties
+#### JSON Schema (1)
+
+The data models the API reads and writes.
+
+- [Cardiac Device](https://apis.io/schemas/st-jude-medical/st-jude-medical-cardiac-device/)
+
+#### JSON Structure (1)
+
+Data models expressed in JSON Structure.
+
+- [St Jude Medical Cardiac Device Structure](https://apis.io/json-structure/st-jude-medical/st-jude-medical-cardiac-device-structure/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [St Jude Medical Context](https://apis.io/jsonld/st-jude-medical/st-jude-medical-context/)
+
+#### Vocabulary (1)
+
+The provider's domain terms, defined.
+
+- [St. Jude Medical Vocabulary](https://apis.io/vocabularies/st-jude-medical/st-jude-medical-vocabulary/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [St. Jude Medical — jsonschema rules](https://apis.io/rules/st-jude-medical/st-jude-medical-jsonschema-spectral-rules/)
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [St Jude Medical Domain Security](https://apis.io/security/st-jude-medical/st-jude-medical-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [St Jude Medical Plans Pricing](https://apis.io/plans/st-jude-medical/st-jude-medical-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [St Jude Medical Rate Limits](https://apis.io/rate-limits/st-jude-medical/st-jude-medical-rate-limits/)
+
+#### FinOps (1)
+
+What the API costs to run, by operation.
+
+- [St Jude Medical Finops](https://apis.io/finops/st-jude-medical/st-jude-medical-finops/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
 
 - [Website](https://www.cardiovascular.abbott/us/en/home.html)
-- [Website](https://www.st-jude-medical.com)
-- [Website](https://www.abbott.com)
 - [Documentation](https://www.cardiovascular.abbott/us/en/hcp/products/cardiac-rhythm-management/connectivity-remote-care/merlin-patient-care-network.html)
-- [JSON-LD](json-ld/st-jude-medical-context.jsonld)
-- [JSON Schema](json-schema/st-jude-medical-cardiac-device-schema.json)
-- [Vocabulary](vocabulary/st-jude-medical-vocabulary.yml)
+
+## API Evangelist rating
+
+**Kin Score 17.4** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 60.7 |
+| Contract quality | 10.7 |
+| Contract governance | 23.5 |
+| Operational transparency | 7.9 |
+| Developer ergonomics | 19.0 |
+| Access clarity | 7.9 |
+
+**Agent readiness 0.6** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | derived (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 8.6** — Health
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/st-jude-medical/](https://apis.io/providers/st-jude-medical/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for St. Jude Medical: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/st-jude-medical/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
